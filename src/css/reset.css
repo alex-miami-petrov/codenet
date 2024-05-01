@@ -29,7 +29,7 @@
   src: local('../fonts/Gilroy Semibold'), local('../fonts/Gilroy-Semibold'),
     url('../fonts/') format('embedded-opentype'),
     url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
-    url(../fonts/'Gilroy-Semibold.woff') format('woff'),
+    url('../fonts/Gilroy-Semibold.woff') format('woff'),
     url('../fonts/Gilroy-Semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
