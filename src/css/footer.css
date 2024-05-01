@@ -1,5 +1,3 @@
-
-
 .footer {
   padding-top: 40px;
   padding-bottom: 28px;
@@ -53,8 +51,7 @@
   width: 36px;
   height: 36px;
 }
-.ftr-tel {
-}
+
 .ftr-tel-link {
   display: flex;
   font-weight: 500;
@@ -138,8 +135,6 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
- 
-
   .ftr-wrap {
     padding-left: 40px;
     padding-right: 40px;
@@ -221,8 +216,7 @@
 
 /* DESKTOP */
 
-
-
+@media screen and (min-width: 768px) {
   .ftr-mob-wrap {
     display: none;
   }
