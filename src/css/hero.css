@@ -65,6 +65,7 @@
     font-size: 16px;
     line-height: 1.25;
     max-width: 480px;
+    margin-bottom: 0;
   }
 
   .hero-icon-scroll {
@@ -93,5 +94,6 @@
   .hero-title {
     font-size: 72px;
     line-height: 0.87;
+    max-width: 597px;
   }
 }
