@@ -1,11 +1,11 @@
-
-
 .footer {
   padding-top: 40px;
   padding-bottom: 28px;
   margin: 0 auto;
   border-radius: 30px;
   background-color: #0c0c0c;
+
+  /* font-family: 'Gilroy', sans-serif; */
 }
 
 .ftr-wrap {
@@ -53,8 +53,7 @@
   width: 36px;
   height: 36px;
 }
-.ftr-tel {
-}
+
 .ftr-tel-link {
   display: flex;
   font-weight: 500;
@@ -138,13 +137,6 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
- 
-
-  .ftr-wrap {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
   .ftr-logo {
     display: none;
   }
@@ -152,6 +144,15 @@
   .ftr-logo-tab {
     display: unset;
     margin-bottom: 20px;
+  }
+
+  .ftr-mob-wrap {
+    margin-bottom: 0;
+  }
+
+  .ftr-wrap {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .ftr-tel-link {
@@ -177,8 +178,7 @@
 
     max-width: 524px;
     margin: 0 auto;
-    padding-bottom: 100px;
-    /* margin-bottom: 92px; */
+    padding-bottom: 50px;
   }
 
   .m-ad-wrap {
@@ -221,7 +221,12 @@
 
 /* DESKTOP */
 
-
+@media screen and (min-width: 1280px) {
+  .ftr-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    /* width: 1036px; */
+  }
 
   .ftr-mob-wrap {
     display: none;
