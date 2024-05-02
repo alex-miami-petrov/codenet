@@ -4,8 +4,23 @@
     justify-content: center;
     align-content: center;
     padding-bottom: 60px;
-    
 }
+
+
+@media screen and (min-width: 768px)  {
+    .catalog {
+       
+    }
+
+}
+
+@media screen and (min-width: 1280px)  {
+    .catalog {
+       
+    }
+
+}
+
 .catalog-title {
 font-weight: 600;
 font-size: 32px; 
@@ -22,6 +37,14 @@ color: #0c0c0c;
     gap: 20px;
 }
 
+@media screen and (min-width: 768px)  {
+.list-catalog {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 16px; 
+    }
+}
+
 .item-list-catalog {
 padding: 24px 28px;
 border: 1px solid rgba(12, 12, 12, 0.05);
@@ -30,6 +53,13 @@ width: 335px;
 height: 364px;
 background: #f3f3f3;
 }
+
+@media screen and (min-width: 768px)  {
+    .item-list-catalog {
+     width: 344px;
+     height: 414px;
+        }
+    }
 
 .list-catalog-title {
 font-weight: 500;
