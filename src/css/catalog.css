@@ -6,6 +6,12 @@
     padding-bottom: 60px;
 }
 
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
 
 @media screen and (min-width: 768px)  {
     .catalog {
@@ -38,7 +44,8 @@ color: #0c0c0c;
 }
 
 @media screen and (min-width: 768px)  {
-.list-catalog {
+
+    .list-catalog {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px 16px; 
@@ -89,5 +96,5 @@ line-height: 1.28571;
 text-align: center;
 color: #fbfbfb;
 padding: 15px 44px;
-
+border: none;
 }
