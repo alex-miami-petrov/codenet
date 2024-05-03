@@ -80,6 +80,12 @@ img {
   height: auto;
 }
 
+.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .container {
     width: 100%;
