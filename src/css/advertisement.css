@@ -1,0 +1,163 @@
+/*................... advertisement......................... */
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.advertisement {
+  width: 375px;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+
+.advertisement-container {
+  width: 335px;
+  height: 363px;
+  border-radius: 30px;
+  padding: 60px 28px;
+  margin: 0 auto;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  background-color: rgba(12, 12, 12, 1);
+  background-image: url(../img/ad.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi),
+(-webkit-min-device-pixel-ration: 2) {
+  .advertisement-container {
+    background-color: rgba(12, 12, 12, 1);
+    background-image: url(../img/ad-2x.png);
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.advertisement-title {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  max-width: 279px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #FBFBFB;
+  text-align: left;
+  margin-bottom: 47px;
+}
+
+.advertisement-accent {
+    font-family: "Gilroy", sans-serif;
+  color: rgba(251, 251, 251, 0.50);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+}
+
+.advertisement-scroll {
+  width: 160px;
+  height: 48px;
+  border: none;
+  font-family: "Gilroy", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  color: #FBFBFB;
+    text-align: center;
+  /* cursor: pointer; */
+  margin: 0;
+  padding: 15px 43px 15px 44px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement {
+    width: 768px;
+    padding: 40px 32px;
+  }
+
+  .advertisement-container {
+    width: 704px;
+    height: 425px;
+    padding: 80px 64px;
+  background-image: url(../img/ad-768.png);
+  }
+
+    @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ration: 2) {
+      .advertisement-container {
+        background-image: url(../img/ad-768-2x.png);
+      }
+    }
+
+  .advertisement-title {
+    font-weight: 600;
+    font-size: 48px;
+    max-width: 576px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    margin-bottom: 47px;
+  }
+
+  .advertisement-accent {
+    font-size: 48px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement {
+    width: 1280px;
+    padding: 50px 65px;
+  }
+
+  .advertisement-container {
+    width: 1150px;
+    height: 298px;
+    padding: 83px 80px;
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    flex-direction: row;
+    background: url(../img/ad-1280.png),
+  }
+
+    @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ration: 2) {
+      .advertisement-container {
+        background-image: url(../img/ad-1280-2x.png);
+        
+      }
+    }
+
+  .advertisement-title {
+    max-width: 690px;
+    margin: 0 auto;
+  }
+}
+
+.advertisement-scroll {
+    padding: 15px 43px;
+}
+
+/*.................... advertisement..................... */
