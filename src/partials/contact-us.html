@@ -1,47 +1,69 @@
-<section>
-  <h2 class="contact-heder">Contact us</h2>
+<section class="contact-us">
+  <div class="container contact-container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-wrap">
+      <div class="contact-input-wrap">
+        <p class="contact-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <textarea
+          class="contact-comment-textar"
+          name="user-comment"
+          id="user-name"
+          placeholder="Name"
+        ></textarea>
+        <textarea
+          class="contact-comment-textar"
+          name="user-comment"
+          id="user-phone"
+          placeholder="Email"
+        ></textarea>
+        <textarea
+          class="contact-comment-textar"
+          name="user-comment"
+          id="user-email"
+          placeholder="+380"
+        ></textarea>
+        <textarea
+          class="contact-comment-area"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Comment"
+        ></textarea>
+        <a href="#catalog" class="contact-btn-link">Send</a>
+      </div>
+      <picture class="contact-foto">
+        <!-- Desktop screen -->
 
-  <form class="contact-form">
-    <p class="contact-text">
-      Please use the form below to contact us. Enter your name, email, phone,
-      and message and we'll get back to you shortly.
-    </p>
-    <div class="contact-input-container">
-      <textarea
-        class="contact-comment-textar"
-        name="user-comment"
-        id="user-name"
-        placeholder="Name"
-      ></textarea>
+        <source
+          media="(min-width: 1280px)"
+          srcset="../img/contact-1280.jpg 1x, ../img/contact-1280-2x.jpg 2x"
+          type="image/jpg"
+        />
+        <!-- Tablet screen -->
+
+        <source
+          media="(min-width: 768px)"
+          srcset="../img/contact-768.jpg 1x, ../img/contact-768-2x.jpg 2x"
+          type="image/jpg"
+        />
+        <!-- Mobile screen -->
+
+        <source
+          media="(min-width: 375px)"
+          srcset="../img/contact.jpg 1x, ../img/contact-2x.jpg 2x"
+          type="image/jpg"
+        />
+        <img
+          class="contact-img"
+          src="../img/contact-768.jpg"
+          alt="Clock on stone"
+          width="704"
+          height="556"
+          loading="lazy"
+        />
+      </picture>
     </div>
-
-    <div class="contact-input-container">
-      <textarea
-        class="contact-comment-textar"
-        name="user-comment"
-        id="user-phone"
-        placeholder="Email"
-      ></textarea>
-    </div>
-
-    <div class="contact-input-container">
-      <textarea
-        class="contact-comment-textar"
-        name="user-comment"
-        id="user-email"
-        placeholder="+380"
-      ></textarea>
-    </div>
-
-    <div class="contact-comment-container">
-      <textarea
-        class="contact-comment-area"
-        name="user-comment"
-        id="user-comment"
-        placeholder="Comment"
-      ></textarea>
-    </div>
-
-    <button type="submit" class="contact-form-button">Send</button>
-  </form>
+  </div>
 </section>
