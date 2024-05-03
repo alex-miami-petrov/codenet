@@ -7,24 +7,32 @@
           Please use the form below to contact us. Enter your name, email,
           phone, and message and we'll get back to you shortly.
         </p>
-        <textarea
-          class="contact-comment-textarea"
+        <form class="contact-form">
+          <input
+          class="contact-comment-input"
           name="user-comment"
           id="user-name"
           placeholder="Name"
-        ></textarea>
-        <textarea
-          class="contact-comment-textarea"
-          name="user-comment"
-          id="user-phone"
-          placeholder="Email"
-        ></textarea>
-        <textarea
-          class="contact-comment-textarea"
+          required
+        ></input>
+        <input
+          class="contact-comment-input"
+          type="email"
           name="user-comment"
           id="user-email"
-          placeholder="+380"
-        ></textarea>
+          placeholder="Email"
+          required
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        ></input>
+        <input
+          class="contact-comment-input"
+          type="tel"
+          name="user-comment"
+          id="user-tel"
+          placeholder="+380-XX-XXX-XX-XX"
+          required
+          pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+        ></input>
         <textarea
           class="contact-comment-user"
           name="user-comment"
@@ -32,6 +40,8 @@
           placeholder="Comment"
         ></textarea>
         <button type="submit" class="contact-button">Send</button>
+        </form>
+        
         <!-- <a href="#catalog" class="contact-btn-link">Send</a> -->
       </div>
       <picture class="contact-foto">
