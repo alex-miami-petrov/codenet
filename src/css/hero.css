@@ -1,7 +1,6 @@
 .hero {
   padding-top: 60px;
   padding-bottom: 60px;
-  font-family: 'Gilroy', sans-serif;
 }
 
 .hero-title {
@@ -9,7 +8,7 @@
   font-size: 40px;
   line-height: 0.95;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
+
   margin-bottom: 20px;
 }
 .hero-span {
@@ -20,7 +19,7 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  color: rgba(12, 12, 12, 0.7);
+
   margin-bottom: 28px;
 }
 .hero-icon-scroll {
@@ -38,7 +37,6 @@
   letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #0c0c0c;
 }
 .hero-img {
 }
@@ -67,6 +65,7 @@
     font-size: 16px;
     line-height: 1.25;
     max-width: 480px;
+    margin-bottom: 0;
   }
 
   .hero-icon-scroll {
@@ -95,5 +94,6 @@
   .hero-title {
     font-size: 72px;
     line-height: 0.87;
+    max-width: 597px;
   }
 }
