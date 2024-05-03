@@ -20,8 +20,6 @@
 .review-in {
   border-radius: 30px;
   padding: 32px 36px;
-  /* width: 335px;
-  height: 262px; */
   background: #f3f3f3;
   max-width: 100%;
   height: auto;
@@ -110,9 +108,7 @@
   .review {
     padding-bottom: 100px;
   }
-  /* .review-wrap {
-    width: 1150px;
-  } */
+
   .three {
     display: unset;
   }
@@ -123,7 +119,8 @@
   }
 
   .review-content {
-    /* width: 298px;
-    height: 208px; */
+  }
+  .review-text {
+    width: 298px;
   }
 }
