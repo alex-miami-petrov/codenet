@@ -10,7 +10,7 @@ margin-bottom: 24px;
   .catalog-title {
     margin-bottom: 40px;
   }
-  
+
 }
 @media screen and (min-width: 1280px)  {
   .catalog-title { 
@@ -64,7 +64,7 @@ margin-bottom: 24px;
 
 @media screen and (min-width: 1280px)  {
   .list-catalog {  
-    gap: 32px 23px; 
+    gap: 32px 24px; 
   }
 }
 
