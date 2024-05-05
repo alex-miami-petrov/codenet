@@ -58,9 +58,9 @@
   
   @media screen and (min-width: 1280px)  {
     .list-catalog { 
-    gap:  32px 23px ;  
-    justify-content: space-between; 
-   /* width: calc((100% - 23px * 2) / 3);   */
+    gap:  32px 23px ; 
+   justify-content: space-between; 
+    /* width: calc((100% - 23px * 2) / 3); */
     }
   }
   
@@ -76,9 +76,11 @@
   }
   
   .pic-catalog {
-  display: block;
-  width: 279px;
-  height: 262px;
+ display: flex;
+  justify-content: center;
+  align-items: center; 
+  /* width: 279px;
+  height: 262px; */
   padding: 18px 36px;
   }
   
@@ -107,8 +109,8 @@
   
     @media screen and (min-width: 1280px)  {
       .item-list-catalog {
-      width: 368px; 
-       width: 368px;
+       min-width: 368px;
+       min-height: 414px;
        padding: 24px 32px;
           }    
       }
