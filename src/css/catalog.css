@@ -6,6 +6,7 @@
   color: #0c0c0c;
   margin-bottom: 24px;
 }
+
 @media screen and (min-width: 768px) {
   .catalog-title {
     margin-bottom: 40px;
@@ -15,30 +16,37 @@
   .catalog-title {
     padding-left: 45px;
   }
-  .catalog {
-    display: flex;
-    flex-direction: column;
-  }
 }
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
 .wrap-li {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-bottom: 60px;
   align-items: center;
 }
 
 @media screen and (min-width: 768px) {
-  .wrap-li {
-    flex-direction: row;
+  .catalog {
     padding-bottom: 80px;
+  }
+
+  .wrap-li {
+    display: unset;
+    /* padding-bottom: 80px; */
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .wrap-li {
+  .catalog {
     padding-bottom: 100px;
+  }
+  .wrap-li {
+    /* padding-bottom: 100px; */
   }
 }
 
@@ -60,7 +68,9 @@
 
 @media screen and (min-width: 1280px) {
   .list-catalog {
-    gap: 32px 24px;
+    gap: 32px 23px;
+    justify-content: space-between;
+    /* width: calc((100% - 23px * 2) / 3); */
   }
 }
 
@@ -75,10 +85,18 @@
 }
 
 .pic-catalog {
-  display: block;
-  width: 279px;
-  height: 262px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 279px;
+  height: 262px; */
   padding: 18px 36px;
+}
+
+@media screen and (min-width: 1280px) {
+  .pic-catalog {
+    padding: 20px;
+  }
 }
 
 .pic-5-6 {
@@ -99,8 +117,9 @@
 
 @media screen and (min-width: 1280px) {
   .item-list-catalog {
-    /* max-width: 368px; */
-    width: 368px;
+    min-width: 368px;
+    min-height: 414px;
+    padding: 24px 32px;
   }
 }
 
