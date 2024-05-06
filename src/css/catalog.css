@@ -1,20 +1,107 @@
-.catalog {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
 .catalog-title {
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  margin-bottom: 24px;
 }
+@media screen and (min-width: 768px) {
+  .catalog-title {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .catalog-title {
+    padding-left: 45px;
+  }
+  .catalog {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.wrap-li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 60px;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap-li {
+    flex-direction: row;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrap-li {
+    padding-bottom: 100px;
+  }
+}
+
 .list-catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
 }
+
+@media screen and (min-width: 768px) {
+  .list-catalog {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .list-catalog {
+    gap: 32px 24px;
+  }
+}
+
 .item-list-catalog {
   padding: 24px 28px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 364px;
+  background: #f3f3f3;
+  align-content: center;
+}
+
+.pic-catalog {
+  display: block;
+  width: 279px;
+  height: 262px;
+  padding: 18px 36px;
+}
+
+.pic-5-6 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .item-list-catalog {
+    max-width: 344px;
+    max-height: 414px;
+    padding: 24px 32px;
+  }
+
+  .pic-5-6 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .item-list-catalog {
+    /* max-width: 368px; */
+    width: 368px;
+  }
 }
 
 .list-catalog-title {
@@ -35,8 +122,9 @@
 }
 
 .catalog-btn {
+  margin-top: 40px;
   border-radius: 16px;
-  width: 160px;
+  min-width: 160px;
   height: 48px;
   background: #3350e9;
   font-weight: 500;
@@ -45,4 +133,16 @@
   text-align: center;
   color: #fbfbfb;
   padding: 15px 44px;
+  border: none;
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+  background: #1f3cd4;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-btn {
+    display: none;
+  }
 }
