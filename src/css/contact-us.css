@@ -186,6 +186,7 @@
   .contact-wrap {
     margin-bottom: 0;
     flex-direction: row;
+    /* margin-bottom: 20px; */
   }
 
   .contact-input-wrap {
