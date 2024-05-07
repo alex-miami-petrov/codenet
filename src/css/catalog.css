@@ -88,14 +88,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 279px;
-  height: 262px; */
+
   padding: 18px 36px;
 }
 
 @media screen and (min-width: 1280px) {
   .pic-catalog {
-    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding: 20px; */
   }
 }
 
