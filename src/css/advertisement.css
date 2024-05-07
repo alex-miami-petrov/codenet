@@ -2,7 +2,11 @@
 
 .advertisement {
   width: 375px;
-  padding: 30px 20px;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  /* padding: 30px 20px; */
   margin: 0 auto;
 }
 
@@ -13,18 +17,18 @@
   padding: 60px 28px;
   margin: 0 auto;
   background-color: rgba(12, 12, 12, 1);
-  background-image: url(../img/ad.png);
+  background-image: url(./img/ad.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 @media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi),
-(-webkit-min-device-pixel-ration: 2) {
+  (min-resolution: 192dpi),
+  (-webkit-min-device-pixel-ration: 2) {
   .advertisement-container {
     background-color: rgba(12, 12, 12, 1);
-    background-image: url(../img/ad-2x.png);
+    background-image: url(./img/ad-2x.png);
   }
 }
 
@@ -33,13 +37,13 @@
   max-width: 279px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #FBFBFB;
+  color: #fbfbfb;
   text-align: left;
   margin-bottom: 47px;
 }
 
 .advertisement-accent {
-  color: rgba(251, 251, 251, 0.50);
+  color: rgba(251, 251, 251, 0.5);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -55,7 +59,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
-  color: #FBFBFB;
+  color: #fbfbfb;
   text-align: center;
   margin: 0;
   padding: 15px 43px 15px 44px;
@@ -67,21 +71,25 @@
 @media screen and (min-width: 768px) {
   .advertisement {
     width: 768px;
-    padding: 40px 32px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    /* padding: 40px 32px; */
   }
 
   .advertisement-container {
     width: 704px;
     height: 425px;
     padding: 80px 64px;
-    background-image: url(../img/ad-768.png);
+    background-image: url(./img/ad-768.png);
   }
 
   @media screen and (min-resolution: 2dppx),
-  (min-resolution: 192dpi),
-  (-webkit-min-device-pixel-ration: 2) {
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ration: 2) {
     .advertisement-container {
-      background-image: url(../img/ad-768-2x.png);
+      background-image: url(./img/ad-768-2x.png);
     }
   }
 
@@ -103,7 +111,11 @@
 @media screen and (min-width: 1280px) {
   .advertisement {
     width: 1280px;
-    padding: 50px 65px;
+    padding-top: 0;
+    padding-bottom: 100px;
+    padding-left: 65px;
+    padding-right: 65px;
+    /* padding: 50px 65px; */
   }
 
   .advertisement-container {
@@ -114,15 +126,14 @@
     gap: 140px;
     justify-content: center;
     flex-direction: row;
-    background: url(../img/ad-1280.png),
+    background: url(./img/ad-1280.png);
   }
 
   @media screen and (min-resolution: 2dppx),
-  (min-resolution: 192dpi),
-  (-webkit-min-device-pixel-ration: 2) {
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ration: 2) {
     .advertisement-container {
-      background-image: url(../img/ad-1280-2x.png);
-
+      background-image: url(./img/ad-1280-2x.png);
     }
   }
 
