@@ -2,11 +2,6 @@
   padding-bottom: 60px;
 }
 
-.container {
-}
-
-.review-container {
-}
 .review-title {
   font-weight: 600;
   font-size: 32px;
@@ -15,10 +10,7 @@
   color: #0c0c0c;
   margin-bottom: 24px;
 }
-.review-list {
-}
-.review-in {
-}
+
 .review-item {
   border-radius: 30px;
   padding: 32px 36px;
