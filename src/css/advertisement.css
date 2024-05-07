@@ -126,7 +126,7 @@
     gap: 140px;
     justify-content: center;
     flex-direction: row;
-    background: url(./img/ad-1280.png);
+    background-image: url(./img/ad-1280.png);
   }
 
   @media screen and (min-resolution: 2dppx),
