@@ -2,11 +2,6 @@
   padding-bottom: 60px;
 }
 
-.container {
-}
-
-.review-wrap {
-}
 .review-title {
   font-weight: 600;
   font-size: 32px;
@@ -15,16 +10,13 @@
   color: #0c0c0c;
   margin-bottom: 24px;
 }
-.review-list {
-}
+
 .review-in {
   border-radius: 30px;
   padding: 32px 36px;
   background: #f3f3f3;
   max-width: 100%;
   height: auto;
-}
-.review-item {
 }
 
 .review-content {
@@ -118,8 +110,6 @@
     width: 298px;
   }
 
-  .review-content {
-  }
   .review-text {
     width: 298px;
   }
