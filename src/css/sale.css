@@ -52,12 +52,11 @@
     height: 561px;
     background: #3350e9;
     font-family: "Gilroy", sans-serif;
-
+    padding-left: 28px;
 
 }
 
 .sale-block-subtitle {
-    margin-left: 28px;
     padding-top: 48px;
     padding-bottom: 10px;
     font-weight: 600;
@@ -70,7 +69,6 @@
 }
 
 .sale-block-text1 {
-    margin-left: 28px;
     margin-bottom: 20px;
     font-weight: 400;
     font-size: 14px;
@@ -87,7 +85,6 @@
 }
 
 .sale-block-text2 {
-    margin-left: 28px;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
@@ -118,7 +115,6 @@
 }
 
 .sale-block-text4 {
-    margin-left: 28px;
     margin-bottom: 28px;
     margin-right: 28px;
     height: 161px;
@@ -131,15 +127,12 @@
 }
 
 
-.sale-watch {}
-
 .sale-btn {
     width: 335px;
     height: 561px;
 }
 
 .sale-btn-list {
-    margin-left: 28px;
     margin-right: 28px;
     display: flex;
     align-items: center;
@@ -191,6 +184,10 @@
 
 @media screen and (min-width: 768px) {
 
+    .sale {
+        padding-bottom: 80px;
+    }
+
     .sale-subject {
         margin-left: 0px;
         font-size: 48px;
@@ -220,7 +217,7 @@
     }
 
     .sale-watch-image {
-        width: 428px;
+        width: 552px;
         height: 558px;
         margin-left: 20px;
         margin-bottom: 40px;
@@ -240,13 +237,13 @@
     }
 
     .sale-block {
+        padding-left: 60px;
         border-radius: 50px;
         width: 704px;
         height: 518px;
     }
 
     .sale-block-subtitle {
-        margin-left: 60px;
         padding-top: 60px;
         padding-bottom: 10px;
         text-align: left;
@@ -255,22 +252,16 @@
         width: 436px;
     }
 
-    .sale-block-text1 {
-        margin-left: 60px;
-    }
-
     .sale-price-list {
         margin-bottom: 30px;
     }
 
     .sale-block-text2 {
-        margin-left: 60px;
         font-size: 20px;
         line-height: 1;
     }
 
     .sale-block-text4 {
-        margin-left: 60px;
         margin-bottom: 40px;
         margin-right: 60px;
         height: 100px;
@@ -284,7 +275,6 @@
     }
 
     .sale-btn-list {
-        margin-left: 60px;
         margin-right: 0px;
         /*display: flex;
         align-items: center;
@@ -331,6 +321,10 @@
 
 @media screen and (min-width: 1280px) {
 
+    .sale {
+        padding-bottom: 100px;
+    }
+
     .sale-watch {
         flex-wrap: nowrap;
     }
@@ -342,8 +336,8 @@
     }
 
     .sale-watch-image1 {
-        /*width: 428px;
-        height: 558px;
+        width: 428px;
+        /*height: 558px;
         margin-left: 20px;
         margin-bottom: 0;*/
         max-width: 100%;
@@ -372,7 +366,6 @@
     }
 
     .sale-block-text4 {
-        margin-left: 60px;
         margin-bottom: 40px;
         margin-right: 60px;
         height: 140px;
