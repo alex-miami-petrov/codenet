@@ -2,9 +2,9 @@
 @font-face {
   font-family: 'Gilroy';
 
-  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
-    url('../fonts/Gilroy-Regular.woff') format('woff'),
-    url('../fonts/Gilroy-Regular.ttf') format('truetype');
+  src: url('./fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('./fonts/Gilroy-Regular.woff') format('woff'),
+    url('./fonts/Gilroy-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -12,9 +12,9 @@
 @font-face {
   font-family: 'Gilroy';
 
-  src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
-    url('../fonts/Gilroy-Bold.woff') format('woff'),
-    url('../fonts/Gilroy-Bold.ttf') format('truetype');
+  src: url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('./fonts/Gilroy-Bold.woff') format('woff'),
+    url('./fonts/Gilroy-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -22,9 +22,9 @@
 @font-face {
   font-family: 'Gilroy';
 
-  src: url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
-    url('../fonts/Gilroy-Semibold.woff') format('woff'),
-    url('../fonts/Gilroy-Semibold.ttf') format('truetype');
+  src: url('./fonts/Gilroy-Semibold.woff2') format('woff2'),
+    url('./fonts/Gilroy-Semibold.woff') format('woff'),
+    url('./fonts/Gilroy-Semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
@@ -32,9 +32,9 @@
 @font-face {
   font-family: 'Gilroy';
 
-  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
-    url('../fonts/Gilroy-Medium.woff') format('woff'),
-    url('../fonts/Gilroy-Medium.ttf') format('truetype');
+  src: url('./fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('./fonts/Gilroy-Medium.woff') format('woff'),
+    url('./fonts/Gilroy-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -43,6 +43,7 @@ body {
   font-family: 'Gilroy', sans-serif;
   background-color: #fbfbfb;
   color: #0c0c0c;
+  font-style: normal;
 }
 
 h1,
@@ -78,6 +79,25 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {

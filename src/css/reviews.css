@@ -11,7 +11,10 @@
   margin-bottom: 24px;
 }
 
+
 .review-item {
+
+
   border-radius: 30px;
   padding: 32px 36px;
   background: #f3f3f3;
@@ -109,8 +112,6 @@
     flex-basis: calc((100% - 40px) / 3);
   }
 
-  .review-content {
-  }
   .review-text {
     width: 298px;
   }
