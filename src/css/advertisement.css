@@ -16,8 +16,10 @@
   border-radius: 30px;
   padding: 60px 28px;
   margin: 0 auto;
+
   background-color: rgba(12, 12, 12, 1);
   background-image: url(/img/ad.png);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -28,7 +30,7 @@
   (-webkit-min-device-pixel-ration: 2) {
   .adertisement-container {
     background-color: rgba(12, 12, 12, 1);
-    background-image: url(../img/ad-2x.png);
+    background-image: url(/img/ad-2x.png);
   }
 }
 
