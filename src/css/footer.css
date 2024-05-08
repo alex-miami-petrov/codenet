@@ -9,10 +9,14 @@
   /* font-family: 'Gilroy', sans-serif; */
 }
 
-.ftr-wrap {
+.ftr-container {
+  padding: 0 28px;
+}
+
+/* .ftr-wrap {
   padding-left: 28px;
   padding-right: 28px;
-}
+} */
 
 .ftr-mob-wrap {
   margin-bottom: 92px;
@@ -88,6 +92,10 @@
   margin-bottom: 24px;
 }
 
+.ftr-m-wrap {
+  max-width: 147px;
+}
+
 .ftr-menu {
   display: flex;
   flex-wrap: wrap;
@@ -98,8 +106,6 @@
 }
 .ftr-m-item {
   max-width: 103px;
-}
-.ftr-m-link {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.3;
