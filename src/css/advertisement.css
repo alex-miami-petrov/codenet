@@ -17,8 +17,9 @@
   padding: 60px 28px;
   margin: 0 auto;
 
-  background-image: url(./img/ad.png);
   background-color: rgba(12, 12, 12, 1);
+  background-image: url(/img/ad.png);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -29,7 +30,7 @@
   (-webkit-min-device-pixel-ration: 2) {
   .adertisement-container {
     background-color: rgba(12, 12, 12, 1);
-    background-image: url(./img/ad-2x.png);
+    background-image: url(/img/ad-2x.png);
   }
 }
 
@@ -83,14 +84,14 @@
     width: 704px;
     height: 425px;
     padding: 80px 64px;
-    background-image: url(./img/ad-768.png);
+    background-image: url(/img/ad-768.png);
   }
 
   @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ration: 2) {
     .adertisement-container {
-      background-image: url(./img/ad-768-2x.png);
+      background-image: url(/img/ad-768-2x.png);
     }
   }
 
@@ -119,22 +120,26 @@
     /* padding: 50px 65px; */
   }
 
-  .adertisement-container {
-    width: 1150px;
-    height: 298px;
-    padding: 83px 80px;
-    display: flex;
-    gap: 140px;
-    justify-content: center;
-    flex-direction: row;
-    background-image: url(./img/ad-1280.png);
-  }
+.advertisement-container {
+  width: 335px;
+  height: 363px;
+  border-radius: 30px;
+  padding: 60px 28px;
+  margin: 0 auto;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  background-color: rgba(12, 12, 12, 1);
+  background-image: url(/img/ad.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
   @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ration: 2) {
     .adertisement-container {
-      background-image: url(./img/ad-1280-2x.png);
+      background-image: url(/img/ad-1280-2x.png);
     }
   }
 
