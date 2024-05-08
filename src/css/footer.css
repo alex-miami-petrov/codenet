@@ -86,6 +86,7 @@
 
 .m-ad-wrap {
   display: flex;
+  justify-content: space-between;
   border-width: 280px;
   padding-bottom: 2px;
   border-bottom: 1px solid rgba(251, 251, 251, 0.1);
@@ -101,7 +102,7 @@
   flex-wrap: wrap;
   row-gap: 8px;
   column-gap: 16px;
-  margin-right: 49px;
+  /* margin-right: 49px; */
   margin-bottom: 24px;
 }
 .ftr-m-item {
@@ -161,6 +162,10 @@
     margin-bottom: 0;
   }
 
+  .ftr-m-wrap {
+    max-width: fit-content;
+  }
+
   .ftr-wrap {
     padding-left: 0;
     padding-right: 0;
@@ -195,11 +200,19 @@
   .m-ad-wrap {
     padding-bottom: 24px;
     margin-top: 50px;
+    flex-direction: row;
+    justify-content: unset;
   }
 
   .ftr-menu {
     margin-right: 62px;
     margin-bottom: 24px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .ftr-m-wrap {
+    display: flex;
   }
 
   .ftr-m-link {
