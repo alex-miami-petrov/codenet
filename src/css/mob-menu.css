@@ -47,6 +47,11 @@
 
 .menu-close-btn {
   border: none;
+  background: none;
+}
+
+.svg-close-mob {
+  stroke: #fbfbfb;
 }
 
 .button-container {
@@ -89,5 +94,10 @@
       url(../img/mob-768.jpg) 1x,
       url(../img/mob-768-2x.jpg) 2x
     );
+  }
+
+  .svg-close-mob {
+    width: 40px;
+    height: 40px;
   }
 }
