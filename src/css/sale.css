@@ -190,6 +190,7 @@
   }
 
   .sale-watch-list {
+    max-width: 768px;
     flex-direction: column;
     width: 132px;
     /*height: 558px;*/
@@ -314,6 +315,10 @@
 
   .sale-watch {
     flex-wrap: nowrap;
+  }
+
+  .sale-watch-list {
+    max-width: 1280px;
   }
 
   .sale-watch-image {
