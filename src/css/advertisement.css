@@ -1,7 +1,7 @@
 /*................... adertisement......................... */
 
 .ad {
-  width: 375px;
+  max-width: 375px;
   padding-top: 0;
   padding-right: 20px;
   padding-bottom: 30px;
@@ -11,7 +11,7 @@
 }
 
 .ad-container {
-  width: 335px;
+  max-width: 335px;
   height: 363px;
   border-radius: 30px;
   padding: 60px 28px;

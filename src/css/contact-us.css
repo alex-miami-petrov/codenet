@@ -28,7 +28,7 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   margin-bottom: 32px;
-  max-width: 279px;
+
   min-height: 54px;
   color: rgba(12, 12, 12, 0.7);
 }
@@ -96,7 +96,7 @@
 }
 
 .contact-img {
-  width: 100%;
+  max-width: 335px;
 }
 
 /* TABLET */
