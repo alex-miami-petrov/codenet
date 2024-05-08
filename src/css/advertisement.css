@@ -112,7 +112,7 @@
 
 @media screen and (min-width: 1280px) {
   .adertisement {
-    width: 1280px;
+    width: 1150px;
     padding-top: 0;
     padding-bottom: 100px;
     padding-left: 65px;
@@ -120,20 +120,20 @@
     /* padding: 50px 65px; */
   }
 
-.advertisement-container {
-  width: 335px;
-  height: 363px;
-  border-radius: 30px;
-  padding: 60px 28px;
-  margin: 0 auto;
-  font-family: "Gilroy", sans-serif;
-  font-weight: 600;
-  background-color: rgba(12, 12, 12, 1);
-  background-image: url(/img/ad.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+  .advertisement-container {
+    width: 1150px;
+    height: 363px;
+    border-radius: 30px;
+    padding: 60px 28px;
+    margin: 0 auto;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    background-color: rgba(12, 12, 12, 1);
+    background-image: url(/img/ad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
   @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
