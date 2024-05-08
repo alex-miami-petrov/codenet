@@ -1,6 +1,6 @@
-/*................... advertisement......................... */
+/*................... adertisement......................... */
 
-.advertisement {
+.adertisement {
   width: 375px;
   padding-top: 0;
   padding-right: 20px;
@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 
-.advertisement-container {
+.adertisement-container {
   width: 335px;
   height: 363px;
   border-radius: 30px;
@@ -26,13 +26,13 @@
 @media screen and (min-resolution: 2dppx),
   (min-resolution: 192dpi),
   (-webkit-min-device-pixel-ration: 2) {
-  .advertisement-container {
+  .adertisement-container {
     background-color: rgba(12, 12, 12, 1);
     background-image: url(./img/ad-2x.png);
   }
 }
 
-.advertisement-title {
+.adertisement-title {
   font-size: 32px;
   max-width: 279px;
   line-height: 1;
@@ -42,7 +42,7 @@
   margin-bottom: 47px;
 }
 
-.advertisement-accent {
+.adertisement-accent {
   color: rgba(251, 251, 251, 0.5);
   font-size: 32px;
   font-style: normal;
@@ -51,7 +51,7 @@
   letter-spacing: -0.02em;
 }
 
-.advertisement-scroll {
+.adertisement-scroll {
   width: 160px;
   height: 48px;
   border: none;
@@ -69,7 +69,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement {
+  .adertisement {
     width: 768px;
     padding-top: 0;
     padding-bottom: 80px;
@@ -78,7 +78,7 @@
     /* padding: 40px 32px; */
   }
 
-  .advertisement-container {
+  .adertisement-container {
     width: 704px;
     height: 425px;
     padding: 80px 64px;
@@ -88,12 +88,12 @@
   @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ration: 2) {
-    .advertisement-container {
+    .adertisement-container {
       background-image: url(./img/ad-768-2x.png);
     }
   }
 
-  .advertisement-title {
+  .adertisement-title {
     font-weight: 600;
     font-size: 48px;
     max-width: 576px;
@@ -102,14 +102,14 @@
     margin-bottom: 47px;
   }
 
-  .advertisement-accent {
+  .adertisement-accent {
     font-size: 48px;
     line-height: 44px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement {
+  .adertisement {
     width: 1280px;
     padding-top: 0;
     padding-bottom: 100px;
@@ -118,7 +118,7 @@
     /* padding: 50px 65px; */
   }
 
-  .advertisement-container {
+  .adertisement-container {
     width: 1150px;
     height: 298px;
     padding: 83px 80px;
@@ -132,18 +132,18 @@
   @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ration: 2) {
-    .advertisement-container {
+    .adertisement-container {
       background-image: url(./img/ad-1280-2x.png);
     }
   }
 
-  .advertisement-title {
+  .adertisement-title {
     max-width: 690px;
     margin: 0 auto;
   }
 }
 
-.advertisement-scroll {
+.adertisement-scroll {
   /* padding: 15px 43px; */
   padding-top: 15px;
   padding-right: 43px;
@@ -154,4 +154,4 @@
   height: 48px;
 }
 
-/*.................... advertisement..................... */
+/*.................... adertisement..................... */
