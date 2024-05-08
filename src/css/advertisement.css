@@ -1,6 +1,6 @@
 /*................... adertisement......................... */
 
-.adertisement {
+.advertisement {
   width: 375px;
   padding-top: 0;
   padding-right: 20px;
@@ -10,16 +10,14 @@
   margin: 0 auto;
 }
 
-.adertisement-container {
+.advertisement-container {
   width: 335px;
   height: 363px;
   border-radius: 30px;
   padding: 60px 28px;
   margin: 0 auto;
-
-  background-color: rgba(12, 12, 12, 1);
   background-image: url(/img/ad.png);
-
+  background-color: rgba(12, 12, 12, 1);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -28,13 +26,13 @@
 @media screen and (min-resolution: 2dppx),
   (min-resolution: 192dpi),
   (-webkit-min-device-pixel-ration: 2) {
-  .adertisement-container {
+  .advertisement-container {
     background-color: rgba(12, 12, 12, 1);
     background-image: url(/img/ad-2x.png);
   }
 }
 
-.adertisement-title {
+.advertisement-title {
   font-size: 32px;
   max-width: 279px;
   line-height: 1;
@@ -44,7 +42,7 @@
   margin-bottom: 47px;
 }
 
-.adertisement-accent {
+.advertisement-accent {
   color: rgba(251, 251, 251, 0.5);
   font-size: 32px;
   font-style: normal;
@@ -53,7 +51,7 @@
   letter-spacing: -0.02em;
 }
 
-.adertisement-scroll {
+.advertisement-scroll {
   width: 160px;
   height: 48px;
   border: none;
@@ -71,7 +69,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .adertisement {
+  .advertisement {
     width: 768px;
     padding-top: 0;
     padding-bottom: 80px;
@@ -80,7 +78,7 @@
     /* padding: 40px 32px; */
   }
 
-  .adertisement-container {
+  .advertisement-container {
     width: 704px;
     height: 425px;
     padding: 80px 64px;
@@ -90,12 +88,12 @@
   @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ration: 2) {
-    .adertisement-container {
+    .advertisement-container {
       background-image: url(/img/ad-768-2x.png);
     }
   }
 
-  .adertisement-title {
+  .advertisement-title {
     font-weight: 600;
     font-size: 48px;
     max-width: 576px;
@@ -104,15 +102,15 @@
     margin-bottom: 47px;
   }
 
-  .adertisement-accent {
+  .advertisement-accent {
     font-size: 48px;
     line-height: 44px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .adertisement {
-    width: 1150px;
+  .advertisement {
+    width: 1280px;
     padding-top: 0;
     padding-bottom: 100px;
     padding-left: 65px;
@@ -122,40 +120,35 @@
 
   .advertisement-container {
     width: 1150px;
-    height: 363px;
-    border-radius: 30px;
-    padding: 60px 28px;
-    margin: 0 auto;
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 600;
-    background-color: rgba(12, 12, 12, 1);
-    background-image: url(/img/ad.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    height: 298px;
+    padding: 83px 80px;
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url(/img/ad-1280.png);
   }
 
   @media screen and (min-resolution: 2dppx),
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ration: 2) {
-    .adertisement-container {
+    .advertisement-container {
       background-image: url(/img/ad-1280-2x.png);
     }
   }
 
-  .adertisement-title {
+  .advertisement-title {
     max-width: 690px;
     margin: 0 auto;
   }
 }
 
-.adertisement-scroll {
+.advertisement-scroll {
   /* padding: 15px 43px; */
   padding-top: 15px;
   padding-right: 43px;
   padding-bottom: 15px;
   padding-left: 44px;
-
   width: 280px;
   height: 48px;
 }
