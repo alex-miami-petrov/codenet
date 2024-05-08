@@ -28,6 +28,10 @@
   padding-bottom: 40px;
 }
 
+.mm-nav {
+  margin: 0 auto;
+}
+
 .mob-menu-list {
   padding: 0;
   text-align: center;
