@@ -16,8 +16,9 @@
   border-radius: 30px;
   padding: 60px 28px;
   margin: 0 auto;
-  background-color: rgba(12, 12, 12, 1);
+
   background-image: url(./img/ad.png);
+  background-color: rgba(12, 12, 12, 1);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -139,7 +139,7 @@
     margin-bottom: 0;
     justify-content: center;
 
-    width: 580px;
+    max-width: 580px;
     height: 532px;
     display: unset;
   }
@@ -154,7 +154,7 @@
   }
 
   .about-img {
-    width: 530px;
+    max-width: 530px;
     height: 532px;
     flex-shrink: 0;
   }
