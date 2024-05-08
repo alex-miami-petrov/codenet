@@ -1,5 +1,5 @@
 .contact-us {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .contact-title {
@@ -8,6 +8,7 @@
   line-height: 1;
   letter-spacing: -0.02em;
   margin-bottom: 24px;
+  color: #0c0c0c;
 }
 
 .contact-input-wrap {
@@ -15,7 +16,6 @@
   margin-bottom: 20px;
   background-color: #f3f3f3;
   border-radius: 30px;
-  border: none;
   display: flex;
   flex-direction: column;
   padding: 48px 28px;
@@ -29,9 +29,11 @@
   margin-bottom: 32px;
   width: 279px;
   min-height: 54px;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 .contact-comment-input {
+  outline: transparent;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.25;
@@ -51,6 +53,7 @@
 }
 
 .contact-comment-user {
+  outline: transparent;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -61,6 +64,7 @@
   width: 279px;
   height: 84px;
   margin-bottom: 28px;
+  resize: none;
 }
 
 .contact-comment-user:hover,
@@ -106,7 +110,6 @@
 
   .contact-wrap {
     display: flex;
-
     flex-direction: column;
   }
 
@@ -136,10 +139,6 @@
     margin-bottom: 32px;
   }
 
-  /* .contact-form {
-    width: 460px;
-  } */
-
   .contact-comment-input {
     font-weight: 400;
     font-size: 16px;
@@ -160,9 +159,6 @@
     height: 90px;
     margin-bottom: 32px;
   }
-
-  /* .contact-btn-link {
-  } */
 
   .contact-img {
     border-radius: 50px;
@@ -189,7 +185,6 @@
   .contact-wrap {
     margin-bottom: 0;
     flex-direction: row;
-    /* margin-bottom: 20px; */
   }
 
   .contact-input-wrap {
