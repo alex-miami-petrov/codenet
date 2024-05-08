@@ -70,7 +70,7 @@
 
 @media screen and (min-width: 768px) {
   .ad {
-    width: 768px;
+    max-width: 768px;
     padding-top: 0;
     padding-bottom: 80px;
     padding-left: 32px;
@@ -79,7 +79,7 @@
   }
 
   .ad-container {
-    width: 704px;
+    max-width: 704px;
     height: 425px;
     padding: 80px 64px;
     background-image: url(/img/ad-768.png);
@@ -110,7 +110,7 @@
 
 @media screen and (min-width: 1280px) {
   .ad {
-    width: 1280px;
+    max-width: 1280px;
     padding-top: 0;
     padding-bottom: 100px;
     padding-left: 65px;
@@ -119,7 +119,7 @@
   }
 
   .ad-container {
-    width: 1150px;
+    max-width: 1150px;
     height: 298px;
     padding: 83px 80px;
     display: flex;

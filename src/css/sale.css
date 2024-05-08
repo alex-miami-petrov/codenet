@@ -209,7 +209,7 @@
   }
 
   .sale-watch-image {
-    width: 552px;
+    max-width: 552px;
     height: 558px;
     margin-left: 20px;
     margin-bottom: 40px;
@@ -231,7 +231,7 @@
   .sale-block {
     padding-left: 60px;
     border-radius: 50px;
-    width: 704px;
+    max-width: 704px;
     height: 518px;
   }
 
@@ -352,7 +352,7 @@
   .sale-block {
     border-radius: 50px;
     margin-left: 40px;
-    width: 530px;
+    max-width: 530px;
     height: 558px;
     justify-content: right;
   }

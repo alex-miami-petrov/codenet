@@ -163,7 +163,7 @@
 
   .contact-img {
     border-radius: 50px;
-    width: 704px;
+    max-width: 704px;
     height: 556px;
   }
 }
@@ -179,7 +179,7 @@
   }
 
   .contact-container {
-    width: 1150px;
+    max-width: 1150px;
     padding: 0;
   }
 
