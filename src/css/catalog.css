@@ -9,6 +9,8 @@
 
 @media screen and (min-width: 768px) {
   .catalog-title {
+    font-size: 48px;
+    line-height: 0.92;
     margin-bottom: 40px;
   }
 }
@@ -45,6 +47,9 @@
   .catalog {
     padding-bottom: 100px;
   }
+  /* .wrap-li {
+    padding-bottom: 100px;
+  } */
 }
 
 .list-catalog {
@@ -85,17 +90,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  /* width: 279px;
+  height: 262px; */
   padding: 18px 36px;
 }
 
 @media screen and (min-width: 1280px) {
   .pic-catalog {
-    padding-top: 0;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    /* padding: 20px; */
+    padding: 20px;
   }
 }
 
