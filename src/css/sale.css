@@ -2,6 +2,10 @@
   padding-bottom: 60px;
 }
 
+.sale-container {
+  min-width: 338px;
+}
+
 .sale-subject {
   margin-bottom: 24px;
   font-weight: 600;

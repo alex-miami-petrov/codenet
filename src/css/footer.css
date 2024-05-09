@@ -11,6 +11,7 @@
 
 .ftr-container {
   padding: 0 28px;
+  max-width: 335px;
 }
 
 /* .ftr-wrap {
@@ -151,6 +152,9 @@
 @media screen and (min-width: 768px) {
   .footer {
     max-width: 704px;
+  }
+  .ftr-container {
+    max-width: unset;
   }
 
   .ftr-logo {
