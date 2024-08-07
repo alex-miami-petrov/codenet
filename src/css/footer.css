@@ -5,19 +5,12 @@
   border-radius: 30px;
   background-color: #0c0c0c;
   max-width: 335px;
-
-  /* font-family: 'Gilroy', sans-serif; */
 }
 
 .ftr-container {
   padding: 0 28px;
   max-width: 335px;
 }
-
-/* .ftr-wrap {
-  padding-left: 28px;
-  padding-right: 28px;
-} */
 
 .ftr-mob-wrap {
   margin-bottom: 92px;
@@ -107,7 +100,6 @@
   flex-wrap: wrap;
   row-gap: 8px;
   column-gap: 16px;
-  /* margin-right: 49px; */
   margin-bottom: 24px;
 }
 .ftr-m-item {

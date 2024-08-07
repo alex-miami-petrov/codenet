@@ -1,12 +1,10 @@
-/*................... adertisement......................... */
-
 .ad {
   max-width: 375px;
   padding-top: 0;
   padding-right: 20px;
   padding-bottom: 30px;
   padding-left: 20px;
-  /* padding: 30px 20px; */
+
   margin: 0 auto;
 }
 
@@ -75,7 +73,6 @@
     padding-bottom: 80px;
     padding-left: 32px;
     padding-right: 32px;
-    /* padding: 40px 32px; */
   }
 
   .ad-container {
@@ -115,7 +112,6 @@
     padding-bottom: 100px;
     padding-left: 65px;
     padding-right: 65px;
-    /* padding: 50px 65px; */
   }
 
   .ad-container {
@@ -144,7 +140,6 @@
 }
 
 .ad-scroll {
-  /* padding: 15px 43px; */
   padding-top: 15px;
   padding-right: 43px;
   padding-bottom: 15px;
@@ -152,5 +147,3 @@
   width: 280px;
   height: 48px;
 }
-
-/*.................... adertisement..................... */

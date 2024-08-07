@@ -28,8 +28,7 @@
   align-items: flex-end;
   margin-bottom: 28px;
 }
-.hero-icons {
-}
+
 .hero-link {
   font-weight: 500;
   font-size: 14px;
@@ -37,8 +36,6 @@
   letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-}
-.hero-img {
 }
 
 /* TABLET */
@@ -86,10 +83,6 @@
   .hero {
     padding-bottom: 100px;
   }
-
-  /* .hero-container {
-    width: 1150px;
-  } */
 
   .hero-title {
     font-size: 72px;

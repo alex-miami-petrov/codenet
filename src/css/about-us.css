@@ -1,5 +1,4 @@
 .about-us {
-  /* padding-top: 40px; */
   padding-bottom: 40px;
 }
 
@@ -61,9 +60,6 @@
   background-color: #1f3cd4;
 }
 
-/* .about-img {
-} */
-
 /* TABLET */
 
 @media screen and (min-width: 768px) {
@@ -108,9 +104,6 @@
     max-width: 584px;
     margin-bottom: 60px;
   }
-
-  /* .about-btn-link {
-  } */
 
   .about-img {
     border-radius: 50px;
